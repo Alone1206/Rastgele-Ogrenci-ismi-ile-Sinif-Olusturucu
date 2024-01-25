@@ -17,8 +17,11 @@
  
  hem sınıf.php hem d upload.php içinden aşağıdaki bilgileri düzenleyiniz.
  $hostname = "localhost";
+ 
  $username = "root";
+ 
  $password = "";
+ 
 $database = "sinif_yarat";
 
 upload.php içinden     $uploadPath = 'C:\xampp1\htdocs\yukle/'; satırını kendinize göre düzenleyiniz. .csv dosyalarını yükleneceği klasördür.
