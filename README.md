@@ -15,7 +15,7 @@
  
  Öğrenci Yükle Kısmından öğrencileri .csv formatında veri tabanına dosya yükleyebilirsiniz. Bu dosya için gerekli örnek ornek.csv olarak mevcuttur.
  
- hem sınıf.php hem d upload.php içinden aşağıdaki bilgileri düzenleyiniz.
+ Hem sınıf.php hem de upload.php içinden aşağıdaki bilgileri düzenleyiniz.
  $hostname = "localhost";
  
  $username = "root";
@@ -24,7 +24,7 @@
  
 $database = "sinif_yarat";
 
-upload.php içinden     $uploadPath = 'C:\xampp1\htdocs\yukle/'; satırını kendinize göre düzenleyiniz. .csv dosyalarını yükleneceği klasördür.
+upload.php içinden     $uploadPath = 'C:\xampp1\htdocs\yukle/'; satırını kendinize göre düzenleyiniz. .csv dosyalarının yükleneceği klasördür.
 
 9,10,11,12 sayıları seçilecek kademeleri ifade etmektedir.
 
