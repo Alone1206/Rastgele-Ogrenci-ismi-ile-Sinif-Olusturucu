@@ -6,16 +6,23 @@
 
  Kurulum;
  Sinif_yarat klasörünün içindeki dosyaları erişmek istediğiniz ana dizinin içine yükleyin. Veri tabanı(.sql) dosyasını veri tabanınıza import edin.
+ 
  Toplam kişi sayısı kısmına seçilecek toplam kişi sayısını giriniz.
+ 
  Sınıf Başına Öğrenci Sayısı kısmına her sınıfa kaç kişi düşmesini istiyorsanız onu seçiniz.
+ 
  Sınıf Başlangıç Numarası kısmına sınıfların numaralandırılmaya başlayacağı sayıyı giriniz. Örn: 101 yazarsanız 102,103,104... şeklinde numaralı sınıflara bölümlendirilir öğrenciler.
+ 
  Öğrenci Yükle Kısmından öğrencileri .csv formatında veri tabanına dosya yükleyebilirsiniz. Bu dosya için gerekli örnek ornek.csv olarak mevcuttur.
+ 
  hem sınıf.php hem d upload.php içinden aşağıdaki bilgileri düzenleyiniz.
  $hostname = "localhost";
  $username = "root";
  $password = "";
 $database = "sinif_yarat";
+
 upload.php içinden     $uploadPath = 'C:\xampp1\htdocs\yukle/'; satırını kendinize göre düzenleyiniz. .csv dosyalarını yükleneceği klasördür.
+
 9,10,11,12 sayıları seçilecek kademeleri ifade etmektedir.
 
 
