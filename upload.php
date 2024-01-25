@@ -1,11 +1,11 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$server = "localhost";
+$user = "root";
+$pass = "";
 $dbname = "sinif_yarat";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($server, $user, $pass, $dbname);
 
 if ($conn->connect_error) {
     die("Bağlantı Hatası:Veri tabanı: " . $conn->connect_error);
